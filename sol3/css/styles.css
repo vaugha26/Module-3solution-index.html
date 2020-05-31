@@ -1,0 +1,169 @@
+body{
+	padding:0;
+	margin:0;
+	border:0;
+	font-size: 16px;
+	color:black;
+	background-color:#27AE60;
+	font-family: font-family: 'Oxygen', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+.container { /* Issues with the display from browser */
+	margin:0;
+	padding:0;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #ECF0F1;
+	border-radius: 0;
+	border:0;
+	padding:0;
+}
+
+#logo-img {/*My Pic*/
+	background: url('../Images/Headshot_150px.png') no-repeat;
+	width: 100px;
+	height: 150px;
+	margin: 10px 0px 15px 20px;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	height:80px;
+}
+
+.navbar-brand h1 { /* RESTAURANT NAME */
+	font-family: 'Lora', serif;
+	color: #273746;
+	font-size: uppercase;
+	font-weight: bold;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:10px;
+	line-height:0.75;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .nabar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand p {/*Sub-heading*/
+	color: #000;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	margin-top: 10px;
+	margin-left: 10px;
+
+	font-style: italic;
+	vertical-align: middle;
+}
+
+
+h2 {
+	font-family: Arial, Helvetica, Times;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	color: black;
+	margin-top:0;
+	margin-bottom: 25px;
+}
+
+.row {
+	width: 100%;
+	margin:0;
+}
+
+.Item-par p {
+	position: relative;
+	float:left;
+	border: 1px solid black;
+	height:auto;
+	padding:10px;
+	padding-top:60px;
+	font-family: Arial, Helvetica, Times;
+	margin-bottom: 15px;
+	background-color:#EAECEE;
+	overflow:auto;
+	width:100%;
+}
+
+.Item-par h3 {
+	width:100%;
+	position:absolute;
+	margin-top:0px;
+	margin-left: auto;
+	margin-right:auto;
+	padding:20px;
+}
+
+
+
+/********* Desktop Large Devices ********/
+@media (min-width: 992px) {
+	}
+/********* Tablet md devices ********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********* Mobile sm devices ********/
+@media (max-width: 767px) {
+}
+
+.narbar-toggle {
+	position:relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 25px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius:4px;
+}
+
+.navbar-toggle: focus {
+	outline: 0;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width:20px;
+	height:2px;
+	border-radius: 1px;
+	margin-bottom:0;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+	margin-bottom:0;
+}
+
+
+#nav-list a {
+	color: black;
+	text-align:center;
+	background: silver;
+	border: 1px solid black;
+	margin-top:0.25px;
+	margin-bottom:0.25px;
+}
+
+#nav-list a:hover {
+	background: gray;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
